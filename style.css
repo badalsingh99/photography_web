@@ -402,7 +402,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(/public/img/banner/b2.jpg);
+  background-image: url(./public/img/banner/b2.jpg);
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -440,7 +440,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(/public/img/banner/b17.jpg);
+  background-image: url(./public/img/banner/b17.jpg);
   min-width: 580px;
   height: 50vh;
   background-size: cover;
@@ -449,7 +449,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-  background-image: url(/public/img/banner/b10.jpg);
+  background-image: url(./public/img/banner/b10.jpg);
 }
 
 #sm-banner h4 {
@@ -488,7 +488,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(/public/img/banner/b7.jpg);
+  background-image: url(./public/img/banner/b7.jpg);
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -498,11 +498,11 @@ body {
 }
 
 #banner3 .banner-box2 {
-  background-image: url(/public/img/banner/b4.jpg);
+  background-image: url(./public/img/banner/b4.jpg);
 }
 
 #banner3 .banner-box3 {
-  background-image: url(/public/img/banner/b18.jpg);
+  background-image: url(./public/img/banner/b18.jpg);
 }
 
 #banner3 h2 {
@@ -522,7 +522,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url(/public/img/banner/b14.png);
+  background-image: url(./public/img/banner/b14.png);
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-color: #000;
@@ -632,7 +632,7 @@ footer a:hover {
 /*Nature Page*/
 
 #nature-header {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(154, 180, 204, 0.322)), url(/badal-photos/nature2.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(154, 180, 204, 0.322)), url(./badal-photos/nature2.jpg);
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -652,7 +652,7 @@ footer a:hover {
 /*art Page*/
 
 #art-header {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(154, 180, 204, 0.322)), url(/badal-photos/art001.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(154, 180, 204, 0.322)), url(./badal-photos/art001.jpg);
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -671,7 +671,7 @@ footer a:hover {
 /* aesthetic page */
 
 #as-header {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(154, 180, 204, 0.322)), url(/badal-photos/art00.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(154, 180, 204, 0.322)), url(./badal-photos/art00.jpg);
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -688,13 +688,13 @@ footer a:hover {
 }
 
 /*SingleProduct */
-
+/* 
 #prodetails {
   display: flex;
   margin-top: 20px;
 }
 /*for making small product like flipkart and amazon webisite */
-#prodetails .single-pro-image {
+/*#prodetails .single-pro-image {
   width: 40%;
   margin-right: 50px;
 }
@@ -707,8 +707,9 @@ footer a:hover {
 .small-img-col {
   flex-basis: 24%;
   cursor: pointer;
-} /*End-Here*/
+}     */               /* end small*/
 
+/*
 #prodetails .single-pro-details {
   width: 50%;
   padding-top: 30px;
@@ -747,7 +748,9 @@ footer a:hover {
 
 #prodetails .single-pro-details span {
   line-height: 25px;
-}
+} */
+
+
 
 /*Start Media Query*/
 
