@@ -302,9 +302,9 @@ body {
 #product1 .pro .des span {
   color: #606063;
   font-size: 25px;
- text-align: center;
- justify-content: center;
- padding-top: 5px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5px;
 }
 
 #product1 .pro .des h5 {
